@@ -16,7 +16,7 @@ public class Validacao {
                 throw new RuntimeException("E-mail inválido");
             }
             
-            if (!(telefone.length() == 11)) {
+            if (!(telefone.length() == 11)|| !telefone.matches("\\d+")) {
                 throw new RuntimeException("Digite um número de telefone válido");
             }
 
