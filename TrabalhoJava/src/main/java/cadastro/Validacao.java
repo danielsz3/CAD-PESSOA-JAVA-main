@@ -22,9 +22,6 @@ public class Validacao {
 
         } catch (RuntimeException e) {
             throw e;
-
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+       }
     }
 }
